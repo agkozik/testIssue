@@ -1,7 +1,5 @@
 package org.thetestingmap.testingchallenges.pages;
 
-
-
 import io.qameta.allure.Step;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;

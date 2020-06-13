@@ -1,0 +1,393 @@
+{
+  "uid" : "3938f58457d2671a",
+  "name" : "negativeLogInTest",
+  "fullName" : "org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest",
+  "historyId" : "67bdf80e1a9c0bd94928b5eaa66e646b",
+  "time" : {
+    "start" : 1592053645027,
+    "stop" : 1592053646044,
+    "duration" : 1017
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1592053639174,
+      "stop" : 1592053645020,
+      "duration" : 5846
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openPage",
+      "time" : {
+        "start" : 1592053645029,
+        "stop" : 1592053645361,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open page by URL",
+        "time" : {
+          "start" : 1592053645029,
+          "stop" : 1592053645361,
+          "duration" : 332
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "http://testingchallenges.thetestingmap.org/index.php"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "enterUserNameAndPassword",
+      "time" : {
+        "start" : 1592053645361,
+        "stop" : 1592053645539,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter ;375^@@ in text field element by locator By.xpath: //input[@id=\"firstname\"]",
+        "time" : {
+          "start" : 1592053645362,
+          "stop" : 1592053645539,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait For Visibility Of By.xpath: //input[@id=\"firstname\"] for []",
+          "time" : {
+            "start" : 1592053645362,
+            "stop" : 1592053645420,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Explicit wait by condition visibility of element located by By.xpath: //input[@id=\"firstname\"]",
+            "time" : {
+              "start" : 1592053645362,
+              "stop" : 1592053645420,
+              "duration" : 58
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "condition",
+              "value" : "visibility of element located by By.xpath: //input[@id=\"firstname\"]"
+            }, {
+              "name" : "timeOutInSeconds",
+              "value" : "null"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //input[@id=\"firstname\"]"
+          }, {
+            "name" : "timeOutInSeconds",
+            "value" : "[]"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "Look up element by locator",
+          "time" : {
+            "start" : 1592053645420,
+            "stop" : 1592053645453,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //input[@id=\"firstname\"]"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : ";375^@@"
+        }, {
+          "name" : "locator",
+          "value" : "By.xpath: //input[@id=\"firstname\"]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "userName",
+        "value" : ";375^@@"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "clickSubmitButton",
+      "time" : {
+        "start" : 1592053645539,
+        "stop" : 1592053645891,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element by locator By.xpath: //input[@type='submit']",
+        "time" : {
+          "start" : 1592053645540,
+          "stop" : 1592053645891,
+          "duration" : 351
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait For Visibility Of By.xpath: //input[@type='submit'] for [5]",
+          "time" : {
+            "start" : 1592053645540,
+            "stop" : 1592053645578,
+            "duration" : 38
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Explicit wait by condition visibility of element located by By.xpath: //input[@type='submit']",
+            "time" : {
+              "start" : 1592053645540,
+              "stop" : 1592053645578,
+              "duration" : 38
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "condition",
+              "value" : "visibility of element located by By.xpath: //input[@type='submit']"
+            }, {
+              "name" : "timeOutInSeconds",
+              "value" : "5"
+            } ],
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 0,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //input[@type='submit']"
+          }, {
+            "name" : "timeOutInSeconds",
+            "value" : "[5]"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 1,
+          "hasContent" : true
+        }, {
+          "name" : "Look up element by locator",
+          "time" : {
+            "start" : 1592053645578,
+            "stop" : 1592053645605,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "locator",
+            "value" : "By.xpath: //input[@type='submit']"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //input[@type='submit']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "getfirstResultOfLoginMessages",
+      "time" : {
+        "start" : 1592053645891,
+        "stop" : 1592053646044,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Look up element by locator",
+        "time" : {
+          "start" : 1592053645891,
+          "stop" : 1592053645938,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //span[@class='values-tested']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Look up element by locator",
+        "time" : {
+          "start" : 1592053645954,
+          "stop" : 1592053645990,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //ul[@class='values-description t10']/li[1]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Look up element by locator",
+        "time" : {
+          "start" : 1592053646009,
+          "stop" : 1592053646035,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "locator",
+          "value" : "By.xpath: //span[@class='values-tested']"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 16,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1592053646046,
+      "stop" : 1592053646106,
+      "duration" : 60
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "negativeLogInTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "LoginSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Login-chrome"
+  }, {
+    "name" : "subSuite",
+    "value" : "org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8H0MF42"
+  }, {
+    "name" : "thread",
+    "value" : "23364@DESKTOP-8H0MF42.TestNG-tests-1(14)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{firstName=;375^@@}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3938f58457d2671a.json",
+  "parameterValues" : [ "{firstName=;375^@@}", "chrome" ]
+}

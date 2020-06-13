@@ -1,0 +1,25 @@
+[ {
+  "values" : [ "Test" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "7.0.0" ],
+  "name" : "TestNG"
+}, {
+  "values" : [ "2.6.0" ],
+  "name" : "Allure-Report.version"
+}, {
+  "values" : [ "79.0.3945.130 x64" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Windows 10" ],
+  "name" : "OS.version"
+}, {
+  "values" : [ "Apache Maven 3.6.2" ],
+  "name" : "MAVEN.version"
+}, {
+  "values" : [ "1.8.0_241" ],
+  "name" : "JDK.version"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+} ]

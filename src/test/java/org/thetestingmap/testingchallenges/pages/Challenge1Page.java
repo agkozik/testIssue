@@ -13,6 +13,7 @@ public class Challenge1Page extends BasePage {
     private By firstNameField = By.xpath("//input[@id=\"firstname\"]");
     private By submitButton = By.xpath("//input[@type='submit']");
     private By checkedCases = By.xpath("//span[@class='values-tested']");
+    private By firstResultOfLogin = By.xpath("//ul[@class='values-description t10']/li[1]");
 
     public Challenge1Page(WebDriver driver, Logger log) {
         super(driver, log);
@@ -36,5 +37,12 @@ public class Challenge1Page extends BasePage {
         log.info("Click Submit Button");
         click(submitButton);
         return this;
+    }
+
+    @Step
+    public int getfirstResultOfLoginMessages() {
+        log.info("Checks found:="+ find(checkedCases).getText());
+        log.info("Check = "+ find(firstResultOfLogin).getText());
+        return Integer.parseInt(find(checkedCases).getText());
     }
 }
