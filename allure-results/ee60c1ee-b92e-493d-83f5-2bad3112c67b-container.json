@@ -1,0 +1,1 @@
+{"uuid":"ee60c1ee-b92e-493d-83f5-2bad3112c67b","name":"org.thetestingmap.testingchallenges.testEngine.TestEngine.closeDriver","description":"","start":1592049864782,"stop":1592049866255,"children":["0b3c924b-97c3-4267-a11b-b2f51f13a727"],"afters":[{"name":"closeDriver","status":"passed","stage":"finished","description":"","start":1592049864782,"stop":1592049866255}]}

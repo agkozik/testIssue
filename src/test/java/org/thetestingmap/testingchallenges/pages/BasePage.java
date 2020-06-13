@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Set;
 
 public class BasePage {
+    protected final String BASE_URL ="http://testingchallenges.thetestingmap.org";
     protected WebDriver driver;
     protected Logger log;
     protected int WAIT_IN_SEC = 5;
@@ -66,6 +67,22 @@ public class BasePage {
     public void type(String text, By locator) {
         waitForVisibilityOf(locator);
         find(locator).sendKeys(text);
+    }
+
+    /**
+     * Set Attribute value
+     */
+    public void setAttributeByLocator(By locator, String attName, String attValue) {
+        makeElementVisibleByJavascript(find(locator));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute(arguments[1], arguments[2]);", find(locator), attName, attValue);
+    }
+
+    public void makeElementVisibleByJavascript(final WebElement element) {
+        String script = "let element = arguments[0];"
+                + "element.style.display='inline';"
+                ;
+        ((JavascriptExecutor)driver).executeScript(script, element);
     }
 
     /**

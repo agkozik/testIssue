@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-LoginSuite">
-              <span class="suite-name border-passed">LoginSuite</span>
+              <span class="suite-name border-failed">LoginSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods,   18 passed</span>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LoginSuite" class="hide-methods failed suite-LoginSuite"> (hide)</a> <!-- hide-methods failed suite-LoginSuite -->
+                      <a href="#" panel-name="suite-LoginSuite" class="show-methods failed suite-LoginSuite"> (show)</a> <!-- show-methods failed suite-LoginSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-LoginSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="gettingAdminRootsTest">gettingAdminRootsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LoginSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,47 @@
                     <div class="method-list-content passed suite-LoginSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})">negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=Your username})">negativeLogInTest({firstName=Your username})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})">negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=&lt;div&gt;})">negativeLogInTest({firstName=<div>})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=&#039; &#039;})">negativeLogInTest({firstName=' '})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=oi32jnxd42390slk345})">negativeLogInTest({firstName=oi32jnxd42390slk345})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=в‚¬})">negativeLogInTest({firstName=в‚¬})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=detailsoverviewnow.css})">negativeLogInTest({firstName=detailsoverviewnow.css})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=465454})">negativeLogInTest({firstName=465454})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -117,27 +171,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName= user})">negativeLogInTest({firstName= user})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=&#039; &#039;})">negativeLogInTest({firstName=' '})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})">negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})">negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=oi32jnxd42390slk345})">negativeLogInTest({firstName=oi32jnxd42390slk345})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=sdgsdgsa yet})">negativeLogInTest({firstName=sdgsdgsa yet})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -147,37 +181,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=user})">negativeLogInTest({firstName=user})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=;375^@@})">negativeLogInTest({firstName=;375^@@})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=detailsoverviewnow.css})">negativeLogInTest({firstName=detailsoverviewnow.css})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=&#039;sql&#039;})">negativeLogInTest({firstName='sql'})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=465454})">negativeLogInTest({firstName=465454})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})">negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=sdgsdgsa yet})">negativeLogInTest({firstName=sdgsdgsa yet})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName= user})">negativeLogInTest({firstName= user})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,7 +191,27 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=&lt;div&gt;})">negativeLogInTest({firstName=<div>})</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=;375^@@})">negativeLogInTest({firstName=;375^@@})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})">negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=user})">negativeLogInTest({firstName=user})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest" hash-for-method="negativeLogInTest({firstName=&#039;sql&#039;})">negativeLogInTest({firstName='sql'})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest" hash-for-method="notNumericLoginTest">notNumericLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-LoginSuite -->
@@ -202,6 +226,60 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-LoginSuite" class="panel LoginSuite">
+          <div class="suite-LoginSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="gettingAdminRootsTest">
+                  </a> <!-- gettingAdminRootsTest -->
+                  <span class="method-name">gettingAdminRootsTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name=&apos;user_right_as_admin&apos;] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-8H0MF42&apos;, ip: &apos;192.168.100.42&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e13d839803bd4ceeea643773d70...}
+Session ID: e13d839803bd4ceeea643773d7092cc3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at org.thetestingmap.testingchallenges.pages.BasePage.find_aroundBody2(BasePage.java:40)
+	at org.thetestingmap.testingchallenges.pages.BasePage$AjcClosure3.run(BasePage.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at org.thetestingmap.testingchallenges.pages.BasePage.find(BasePage.java:38)
+	at org.thetestingmap.testingchallenges.pages.Challenge1Page.changeAttributeValueByClassName_aroundBody4(Challenge1Page.java:43)
+	at org.thetestingmap.testingchallenges.pages.Challenge1Page$AjcClosure5.run(Challenge1Page.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at org.thetestingmap.testingchallenges.pages.Challenge1Page.changeAttributeValueByClassName(Challenge1Page.java:39)
+	at org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.gettingAdminRootsTest(NegativeFirstNameTest.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-failed -->
+          <div class="suite-LoginSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="notNumericLoginTest">
+                  </a> <!-- notNumericLoginTest -->
+                  <span class="method-name">notNumericLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-passed -->
           <div class="suite-LoginSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -210,10 +288,74 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})">
+                  </a> <!-- negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="negativeLogInTest({firstName=Your username})">
                   </a> <!-- negativeLogInTest({firstName=Your username}) -->
                   <span class="method-name">negativeLogInTest</span>
                   <span class="parameters">({firstName=Your username})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})">
+                  </a> <!-- negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=qwertyuiopqwertyuiopqwertyuiop})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=&lt;div&gt;})">
+                  </a> <!-- negativeLogInTest({firstName=<div>}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=<div>})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=&#039; &#039;})">
+                  </a> <!-- negativeLogInTest({firstName=' '}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=' '})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=oi32jnxd42390slk345})">
+                  </a> <!-- negativeLogInTest({firstName=oi32jnxd42390slk345}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=oi32jnxd42390slk345})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=в‚¬})">
+                  </a> <!-- negativeLogInTest({firstName=в‚¬}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=в‚¬})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=detailsoverviewnow.css})">
+                  </a> <!-- negativeLogInTest({firstName=detailsoverviewnow.css}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=detailsoverviewnow.css})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=465454})">
+                  </a> <!-- negativeLogInTest({firstName=465454}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=465454})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -234,42 +376,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="negativeLogInTest({firstName= user})">
-                  </a> <!-- negativeLogInTest({firstName= user}) -->
+                  <a name="negativeLogInTest({firstName=sdgsdgsa yet})">
+                  </a> <!-- negativeLogInTest({firstName=sdgsdgsa yet}) -->
                   <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName= user})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=&#039; &#039;})">
-                  </a> <!-- negativeLogInTest({firstName=' '}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=' '})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})">
-                  </a> <!-- negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})">
-                  </a> <!-- negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=Р СѓСЃСЃРєРёР№})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=oi32jnxd42390slk345})">
-                  </a> <!-- negativeLogInTest({firstName=oi32jnxd42390slk345}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=oi32jnxd42390slk345})</span>
+                  <span class="parameters">({firstName=sdgsdgsa yet})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -282,58 +392,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="negativeLogInTest({firstName=user})">
-                  </a> <!-- negativeLogInTest({firstName=user}) -->
+                  <a name="negativeLogInTest({firstName= user})">
+                  </a> <!-- negativeLogInTest({firstName= user}) -->
                   <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=user})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=;375^@@})">
-                  </a> <!-- negativeLogInTest({firstName=;375^@@}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=;375^@@})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=detailsoverviewnow.css})">
-                  </a> <!-- negativeLogInTest({firstName=detailsoverviewnow.css}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=detailsoverviewnow.css})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=&#039;sql&#039;})">
-                  </a> <!-- negativeLogInTest({firstName='sql'}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName='sql'})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=465454})">
-                  </a> <!-- negativeLogInTest({firstName=465454}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=465454})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})">
-                  </a> <!-- negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=qwertyuiopqwertyuiopqwertyuiop})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="negativeLogInTest({firstName=sdgsdgsa yet})">
-                  </a> <!-- negativeLogInTest({firstName=sdgsdgsa yet}) -->
-                  <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=sdgsdgsa yet})</span>
+                  <span class="parameters">({firstName= user})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -346,10 +408,34 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="negativeLogInTest({firstName=&lt;div&gt;})">
-                  </a> <!-- negativeLogInTest({firstName=<div>}) -->
+                  <a name="negativeLogInTest({firstName=;375^@@})">
+                  </a> <!-- negativeLogInTest({firstName=;375^@@}) -->
                   <span class="method-name">negativeLogInTest</span>
-                  <span class="parameters">({firstName=<div>})</span>
+                  <span class="parameters">({firstName=;375^@@})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})">
+                  </a> <!-- negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=Р СѓСЃСЃРєРёР№})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=user})">
+                  </a> <!-- negativeLogInTest({firstName=user}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName=user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeLogInTest({firstName=&#039;sql&#039;})">
+                  </a> <!-- negativeLogInTest({firstName='sql'}) -->
+                  <span class="method-name">negativeLogInTest</span>
+                  <span class="parameters">({firstName='sql'})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -368,12 +454,14 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest&quot;/&gt;
+      &lt;class name=&quot;org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login-chrome --&gt;
   &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Login-firefox&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest&quot;/&gt;
+      &lt;class name=&quot;org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login-firefox --&gt;
 &lt;/suite&gt; &lt;!-- LoginSuite --&gt;
@@ -387,10 +475,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login-chrome (1 class)</span>
+                <span class="test-name">Login-chrome (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">Login-firefox (1 class)</span>
+                <span class="test-name">Login-firefox (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -416,79 +504,91 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'negativeLogInTest')
+data.setCell(0, 1, 'gettingAdminRootsTest')
 data.setCell(0, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(0, 3, 1387);
+data.setCell(0, 3, 6265);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'negativeLogInTest')
 data.setCell(1, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(1, 3, 1279);
+data.setCell(1, 3, 1690);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'negativeLogInTest')
 data.setCell(2, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(2, 3, 1272);
+data.setCell(2, 3, 1316);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'negativeLogInTest')
 data.setCell(3, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(3, 3, 1227);
+data.setCell(3, 3, 1283);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'negativeLogInTest')
-data.setCell(4, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(4, 3, 1145);
+data.setCell(4, 1, 'notNumericLoginTest')
+data.setCell(4, 2, 'org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest')
+data.setCell(4, 3, 1257);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'negativeLogInTest')
 data.setCell(5, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(5, 3, 1138);
+data.setCell(5, 3, 1256);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'negativeLogInTest')
 data.setCell(6, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(6, 3, 1093);
+data.setCell(6, 3, 1253);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'negativeLogInTest')
 data.setCell(7, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(7, 3, 1087);
+data.setCell(7, 3, 1213);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'negativeLogInTest')
 data.setCell(8, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(8, 3, 1080);
+data.setCell(8, 3, 1124);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'negativeLogInTest')
 data.setCell(9, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(9, 3, 1052);
+data.setCell(9, 3, 1107);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'negativeLogInTest')
 data.setCell(10, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(10, 3, 1049);
+data.setCell(10, 3, 1099);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'negativeLogInTest')
 data.setCell(11, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(11, 3, 1045);
+data.setCell(11, 3, 1096);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'negativeLogInTest')
 data.setCell(12, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(12, 3, 1036);
+data.setCell(12, 3, 1086);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'negativeLogInTest')
 data.setCell(13, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(13, 3, 989);
+data.setCell(13, 3, 1082);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'negativeLogInTest')
 data.setCell(14, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(14, 3, 957);
+data.setCell(14, 3, 1065);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'negativeLogInTest')
 data.setCell(15, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(15, 3, 954);
+data.setCell(15, 3, 1055);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'negativeLogInTest')
 data.setCell(16, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(16, 3, 932);
+data.setCell(16, 3, 1032);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'negativeLogInTest')
 data.setCell(17, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
-data.setCell(17, 3, 920);
+data.setCell(17, 3, 1027);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'negativeLogInTest')
+data.setCell(18, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
+data.setCell(18, 3, 1008);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'negativeLogInTest')
+data.setCell(19, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
+data.setCell(19, 3, 1005);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'negativeLogInTest')
+data.setCell(20, 2, 'org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest')
+data.setCell(20, 3, 944);
 window.suiteTableData['LoginSuite']= { tableData: data, tableDiv: 'times-div-LoginSuite'}
 return data;
 }
@@ -521,436 +621,536 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.gettingAdminRootsT...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.gettingAdminRootsT...)</span>
+                <span class="method-start">222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">gettingAdminRootsTest</span>
+                <span class="method-start">7212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">gettingAdminRootsTest</span>
+                <span class="method-start">7885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=gettingAdminRootsTest status=FAILURE method=NegativeFirstNameTest.gettingAdminRoots...)</span>
+                <span class="method-start">13927 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest.notNumericLoginT...)</span>
+                <span class="method-start">15097 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=gettingAdminRootsTest status=FAILURE method=NegativeFirstNameTest.gettingAdminRoots...)</span>
+                <span class="method-start">17569 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">notNumericLoginTest</span>
+                <span class="method-start">18645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=notNumericLoginTest status=SUCCESS method=TypeNotNumericValueTest.notNumericLoginTe...)</span>
+                <span class="method-start">19959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest.notNumericLoginT...)</span>
+                <span class="method-start">20659 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">155 ms</span>
+                <span class="method-start">21104 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=Your username})</span>
-                <span class="method-start">5838 ms</span>
+                <span class="method-start">25076 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">26225 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">notNumericLoginTest</span>
+                <span class="method-start">26671 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">27401 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=notNumericLoginTest status=SUCCESS method=TypeNotNumericValueTest.notNumericLoginTe...)</span>
+                <span class="method-start">27930 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">27983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})</span>
+                <span class="method-start">31940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">33060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">34053 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=Your username})</span>
-                <span class="method-start">7005 ms</span>
+                <span class="method-start">34828 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">7338 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">8103 ms</span>
+                <span class="method-start">35886 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">8152 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">8603 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})</span>
-                <span class="method-start">12599 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">13610 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})</span>
-                <span class="method-start">14014 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">14793 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">15005 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">15057 ms</span>
+                <span class="method-start">35955 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=a})</span>
-                <span class="method-start">18794 ms</span>
+                <span class="method-start">38553 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">19712 ms</span>
+                <span class="method-start">39548 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">40737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=Р СѓСЃСЃРєРёР№})</span>
+                <span class="method-start">41922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">43617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">43683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=''})</span>
+                <span class="method-start">44719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">46127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">47074 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=a})</span>
-                <span class="method-start">20493 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">20881 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">21449 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">21487 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=''})</span>
-                <span class="method-start">24893 ms</span>
+                <span class="method-start">49640 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">25789 ms</span>
+                <span class="method-start">50650 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">26865 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=''})</span>
-                <span class="method-start">27310 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">28245 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">28297 ms</span>
+                <span class="method-start">50687 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=' '})</span>
-                <span class="method-start">31357 ms</span>
+                <span class="method-start">51083 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">32279 ms</span>
+                <span class="method-start">52243 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">33441 ms</span>
+                <span class="method-start">53527 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=''})</span>
+                <span class="method-start">56552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName= user})</span>
+                <span class="method-start">57082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">57768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">57832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">58306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">59836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=user})</span>
+                <span class="method-start">63361 ms</span>
+              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=' '})</span>
-                <span class="method-start">34284 ms</span>
+                <span class="method-start">63784 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">35322 ms</span>
+                <span class="method-start">64669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">64885 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">35383 ms</span>
+                <span class="method-start">64934 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName= user})</span>
-                <span class="method-start">37955 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">38846 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">39868 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName= user})</span>
-                <span class="method-start">41252 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">42335 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">42396 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=user})</span>
-                <span class="method-start">43870 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">44884 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">45858 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=user})</span>
-                <span class="method-start">48382 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">49472 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">49523 ms</span>
+                <span class="method-start">65968 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})</span>
-                <span class="method-start">49919 ms</span>
+                <span class="method-start">69976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName= user})</span>
+                <span class="method-start">70791 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">50814 ms</span>
+                <span class="method-start">71083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">71880 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">51973 ms</span>
+                <span class="method-start">71948 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">72254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})</span>
+                <span class="method-start">76260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">77374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=user})</span>
+                <span class="method-start">77788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">78632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">78817 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">78855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=;375^@@})</span>
+                <span class="method-start">83138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">84174 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName})</span>
-                <span class="method-start">55394 ms</span>
+                <span class="method-start">84737 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})</span>
-                <span class="method-start">56000 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">56783 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">56826 ms</span>
+                <span class="method-start">85595 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">57031 ms</span>
+                <span class="method-start">86022 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">58007 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=;375^@@})</span>
-                <span class="method-start">61514 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">62499 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})</span>
-                <span class="method-start">62621 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">63675 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">63732 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">63807 ms</span>
+                <span class="method-start">86068 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=sdgsdgsa yet})</span>
-                <span class="method-start">67795 ms</span>
+                <span class="method-start">89631 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">68876 ms</span>
+                <span class="method-start">90689 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=;375^@@})</span>
-                <span class="method-start">69583 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">70314 ms</span>
+                <span class="method-start">92004 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=qwertyuiopqwertyuiopqwertyuiop})</span>
+                <span class="method-start">92126 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">70724 ms</span>
+                <span class="method-start">93210 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">70768 ms</span>
+                <span class="method-start">93284 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=<div>})</span>
-                <span class="method-start">74315 ms</span>
+                <span class="method-start">96154 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">75350 ms</span>
+                <span class="method-start">97199 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">76464 ms</span>
+                <span class="method-start">98330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=;375^@@})</span>
+                <span class="method-start">100240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">101366 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">101410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=<script>alert</script>})</span>
+                <span class="method-start">102336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">103455 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">104394 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=sdgsdgsa yet})</span>
-                <span class="method-start">76614 ms</span>
+                <span class="method-start">107320 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">77661 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">77704 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=<script>alert</script>})</span>
-                <span class="method-start">80532 ms</span>
+                <span class="method-name">negativeLogInTest({firstName='sql'})</span>
+                <span class="method-start">107936 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">81601 ms</span>
+                <span class="method-start">108575 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">82722 ms</span>
+                <span class="method-start">108632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">109843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">110965 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=<div>})</span>
-                <span class="method-start">84794 ms</span>
+                <span class="method-start">113846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=dfjwGGe82H43g3uRiy53h})</span>
+                <span class="method-start">114516 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">86023 ms</span>
+                <span class="method-start">115165 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">86066 ms</span>
+                <span class="method-start">115215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">115696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">117221 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName='sql'})</span>
-                <span class="method-start">87204 ms</span>
+                <span class="method-name">negativeLogInTest({firstName=465454})</span>
+                <span class="method-start">120743 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">88303 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">89271 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=<script>alert</script>})</span>
-                <span class="method-start">91948 ms</span>
+                <span class="method-start">121089 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">93095 ms</span>
+                <span class="method-start">122133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">122347 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">93140 ms</span>
+                <span class="method-start">122387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">123305 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=dfjwGGe82H43g3uRiy53h})</span>
-                <span class="method-start">93288 ms</span>
+                <span class="method-name">negativeLogInTest({firstName=detailsoverviewnow.css})</span>
+                <span class="method-start">127309 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">94220 ms</span>
+                <span class="method-start">128296 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">95554 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName='sql'})</span>
-                <span class="method-start">99041 ms</span>
+                <span class="method-start">129146 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=465454})</span>
-                <span class="method-start">99090 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">100315 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">100327 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">100351 ms</span>
+                <span class="method-start">129625 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">130213 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">102268 ms</span>
+                <span class="method-start">130278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=oi32jnxd42390slk345})</span>
+                <span class="method-start">134138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">135138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">136160 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=dfjwGGe82H43g3uRiy53h})</span>
-                <span class="method-start">106153 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=detailsoverviewnow.css})</span>
-                <span class="method-start">106315 ms</span>
+                <span class="method-start">136215 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">107417 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">107435 ms</span>
+                <span class="method-start">137249 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">107492 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">108546 ms</span>
+                <span class="method-start">137333 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">negativeLogInTest({firstName=oi32jnxd42390slk345})</span>
-                <span class="method-start">112545 ms</span>
+                <span class="method-name">negativeLogInTest({firstName=в‚¬})</span>
+                <span class="method-start">140673 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">113534 ms</span>
+                <span class="method-start">141655 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=465454})</span>
-                <span class="method-start">114124 ms</span>
+                <span class="method-start">143748 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">115046 ms</span>
+                <span class="method-start">144694 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">115077 ms</span>
+                <span class="method-start">144761 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=detailsoverviewnow.css})</span>
-                <span class="method-start">120836 ms</span>
+                <span class="method-start">150758 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">121887 ms</span>
+                <span class="method-start">151856 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
-                <span class="method-start">121919 ms</span>
+                <span class="method-start">151898 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">negativeLogInTest({firstName=oi32jnxd42390slk345})</span>
-                <span class="method-start">127102 ms</span>
+                <span class="method-start">157948 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
-                <span class="method-start">128060 ms</span>
+                <span class="method-start">159057 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver(public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(...)</span>
+                <span class="method-start">159101 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">negativeLogInTest({firstName=в‚¬})</span>
+                <span class="method-start">164932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeDriver([TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(jav...)</span>
+                <span class="method-start">165939 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
