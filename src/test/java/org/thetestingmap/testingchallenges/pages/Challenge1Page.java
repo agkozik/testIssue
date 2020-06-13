@@ -25,12 +25,16 @@ public class Challenge1Page extends BasePage {
     }
 
     @Step
-    public Challenge1Page enterUserNameAndPassword(String userName, String password) {
-        log.info("First Name=" + userName + " , password=" + password);
+    public Challenge1Page enterUserNameAndPassword(String userName) {
+        log.info("First Name=" + userName);
         type(userName, firstNameField);
         return this;
     }
 
-
-
+    @Step
+    public Challenge1Page clickSubmitButton(){
+        log.info("Click Submit Button");
+        click(submitButton);
+        return this;
+    }
 }
