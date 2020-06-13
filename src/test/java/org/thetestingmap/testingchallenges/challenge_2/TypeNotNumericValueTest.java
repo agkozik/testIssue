@@ -13,7 +13,7 @@ import org.thetestingmap.testingchallenges.testEngine.TestEngine;
 @Listeners({org.thetestingmap.testingchallenges.testEngine.TestListener.class})
 public class TypeNotNumericValueTest extends TestEngine {
     @Test
-    @Story("Checking First User Names")
+    @Story("Get access to type string to numeric")
     @Description("Using string instead of numeric value")
     @Severity(SeverityLevel.MINOR)
     public void notNumericLoginTest() {

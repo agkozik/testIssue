@@ -13,7 +13,7 @@ public class Challenge2Page extends BasePage {
 
     private By numericField = By.xpath("//input[@class='inputbox']");
     private By submitButton = By.xpath("//input[@type='submit']");
-    private By hiddenText = By.xpath("//span/font[contains(text(), 'Please enter your name')]");
+    private By hiddenText = By.xpath("//span[@class='req']/preceding-sibling::font");
 
     public Challenge2Page(WebDriver driver, Logger log) {
         super(driver, log);

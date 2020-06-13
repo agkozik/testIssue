@@ -1,0 +1,10 @@
+org\thetestingmap\testingchallenges\pages\Challenge3Page.class
+org\thetestingmap\testingchallenges\pages\BasePage.class
+org\thetestingmap\testingchallenges\testEngine\TestListener.class
+org\thetestingmap\testingchallenges\challenge_1\NegativeFirstNameTest.class
+org\thetestingmap\testingchallenges\pages\Challenge1Page.class
+org\thetestingmap\testingchallenges\challenge_2\TypeNotNumericValueTest.class
+org\thetestingmap\testingchallenges\pages\Challenge2Page.class
+org\thetestingmap\testingchallenges\testEngine\CsvDataProviders.class
+org\thetestingmap\testingchallenges\challenge_3\OpenHiddenChallengeTest.class
+org\thetestingmap\testingchallenges\testEngine\TestEngine.class

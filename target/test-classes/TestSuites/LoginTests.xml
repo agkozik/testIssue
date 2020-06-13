@@ -8,6 +8,7 @@
         <classes>
             <class name="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest"/>
             <class name="org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest"/>
+            <class name="org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest"/>
         </classes>
     </test>
 
@@ -16,6 +17,7 @@
         <classes>
             <class name="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest"/>
             <class name="org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest"/>
+            <class name="org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest"/>
         </classes>
     </test>
 </suite>
