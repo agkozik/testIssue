@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="22" passed="21">
+<testng-results skipped="0" failed="2" ignored="0" total="46" passed="44">
   <reporter-output>
   </reporter-output>
-  <suite name="LoginSuite" duration-ms="160151" started-at="2020-06-13T23:31:54 MSK" finished-at="2020-06-13T23:34:35 MSK">
+  <suite name="LoginSuite" duration-ms="177033" started-at="2020-06-14T18:35:52 MSK" finished-at="2020-06-14T18:38:49 MSK">
     <groups>
     </groups>
-    <test name="Login-chrome" duration-ms="160151" started-at="2020-06-13T23:31:54 MSK" finished-at="2020-06-13T23:34:35 MSK">
+    <test name="Login-firefox" duration-ms="153850" started-at="2020-06-14T18:35:52 MSK" finished-at="2020-06-14T18:38:26 MSK">
       <class name="org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest">
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@3185fa6b]" name="initDriver" is-config="true" duration-ms="5921" started-at="2020-06-13T23:32:23 MSK" finished-at="2020-06-13T23:32:29 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@34645867]" name="initDriver" is-config="true" duration-ms="3959" started-at="2020-06-14T18:36:22 MSK" finished-at="2020-06-14T18:36:26 MSK">
           <params>
             <param index="0">
               <value>
@@ -16,27 +16,27 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="notNumericLoginTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@3185fa6b]" name="notNumericLoginTest" duration-ms="1302" started-at="2020-06-13T23:32:29 MSK" finished-at="2020-06-13T23:32:31 MSK">
+        <test-method status="PASS" signature="notNumericLoginTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@34645867]" name="notNumericLoginTest" duration-ms="1149" started-at="2020-06-14T18:36:26 MSK" finished-at="2020-06-14T18:36:27 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- notNumericLoginTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@3185fa6b]" name="closeDriver" is-config="true" duration-ms="89" started-at="2020-06-13T23:32:31 MSK" finished-at="2020-06-13T23:32:31 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@34645867]" name="closeDriver" is-config="true" duration-ms="939" started-at="2020-06-14T18:36:27 MSK" finished-at="2020-06-14T18:36:28 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=notNumericLoginTest status=SUCCESS method=TypeNotNumericValueTest.notNumericLoginTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@3185fa6b] output={null}]]]>
+                <![CDATA[[TestResult name=notNumericLoginTest status=SUCCESS method=TypeNotNumericValueTest.notNumericLoginTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@34645867] output={null}]]]>
               </value>
             </param>
           </params>
@@ -44,8 +44,46 @@
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest -->
+      <class name="org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@60b71e8f]" name="initDriver" is-config="true" duration-ms="4950" started-at="2020-06-14T18:35:54 MSK" finished-at="2020-06-14T18:35:59 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest.checkingFiveIdNumbersTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="checkingFiveIdNumbersTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@60b71e8f]" name="checkingFiveIdNumbersTest" duration-ms="5172" started-at="2020-06-14T18:35:59 MSK" finished-at="2020-06-14T18:36:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingFiveIdNumbersTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@60b71e8f]" name="closeDriver" is-config="true" duration-ms="1076" started-at="2020-06-14T18:36:04 MSK" finished-at="2020-06-14T18:36:05 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkingFiveIdNumbersTest status=SUCCESS method=GenerateTestingDataTest.checkingFiveIdNumbersTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@60b71e8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest -->
       <class name="org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest">
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@6d366c9b]" name="initDriver" is-config="true" duration-ms="6727" started-at="2020-06-13T23:31:56 MSK" finished-at="2020-06-13T23:32:03 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@2484f433]" name="initDriver" is-config="true" duration-ms="3502" started-at="2020-06-14T18:36:05 MSK" finished-at="2020-06-14T18:36:09 MSK">
           <params>
             <param index="0">
               <value>
@@ -54,27 +92,27 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="checkingHiddenPageTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@6d366c9b]" name="checkingHiddenPageTest" duration-ms="497" started-at="2020-06-13T23:32:03 MSK" finished-at="2020-06-13T23:32:03 MSK">
+        <test-method status="PASS" signature="checkingHiddenPageTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@2484f433]" name="checkingHiddenPageTest" duration-ms="610" started-at="2020-06-14T18:36:09 MSK" finished-at="2020-06-14T18:36:09 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkingHiddenPageTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@6d366c9b]" name="closeDriver" is-config="true" duration-ms="67" started-at="2020-06-13T23:32:03 MSK" finished-at="2020-06-13T23:32:03 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@2484f433]" name="closeDriver" is-config="true" duration-ms="975" started-at="2020-06-14T18:36:09 MSK" finished-at="2020-06-14T18:36:10 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkingHiddenPageTest status=SUCCESS method=OpenHiddenChallengeTest.checkingHiddenPageTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@6d366c9b] output={null}]]]>
+                <![CDATA[[TestResult name=checkingHiddenPageTest status=SUCCESS method=OpenHiddenChallengeTest.checkingHiddenPageTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@2484f433] output={null}]]]>
               </value>
             </param>
           </params>
@@ -83,7 +121,7 @@
         </test-method> <!-- closeDriver -->
       </class> <!-- org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest -->
       <class name="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest">
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5287" started-at="2020-06-13T23:32:03 MSK" finished-at="2020-06-13T23:32:09 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3958" started-at="2020-06-14T18:36:10 MSK" finished-at="2020-06-14T18:36:14 MSK">
           <params>
             <param index="0">
               <value>
@@ -92,42 +130,42 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="FAIL" signature="gettingAdminRootsTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="gettingAdminRootsTest" duration-ms="5657" started-at="2020-06-13T23:32:09 MSK" finished-at="2020-06-13T23:32:14 MSK">
+        <test-method status="FAIL" signature="gettingAdminRootsTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="gettingAdminRootsTest" duration-ms="5871" started-at="2020-06-14T18:36:14 MSK" finished-at="2020-06-14T18:36:20 MSK">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='user_right_as_admin'] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8H0MF42', ip: '192.168.100.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1d1363a1a624d89a6b0b3cd7ec8...}
-Session ID: 1d1363a1a624d89a6b0b3cd7ec8a9b46]]>
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 37368, moz:profile: C:\Users\Aleksandr\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9bdf2522-ada1-43f4-bd14-83d...}
+Session ID: 9bdf2522-ada1-43f4-bd14-83d86e13e4a1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='user_right_as_admin'] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8H0MF42', ip: '192.168.100.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1d1363a1a624d89a6b0b3cd7ec8...}
-Session ID: 1d1363a1a624d89a6b0b3cd7ec8a9b46
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 37368, moz:profile: C:\Users\Aleksandr\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9bdf2522-ada1-43f4-bd14-83d...}
+Session ID: 9bdf2522-ada1-43f4-bd14-83d86e13e4a1
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at org.thetestingmap.testingchallenges.pages.BasePage.find_aroundBody2(BasePage.java:40)
+at org.thetestingmap.testingchallenges.pages.BasePage.find_aroundBody2(BasePage.java:45)
 at org.thetestingmap.testingchallenges.pages.BasePage$AjcClosure3.run(BasePage.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
 at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
-at org.thetestingmap.testingchallenges.pages.BasePage.find(BasePage.java:38)
+at org.thetestingmap.testingchallenges.pages.BasePage.find(BasePage.java:43)
 at org.thetestingmap.testingchallenges.pages.Challenge1Page.changeAttributeValueByClassName_aroundBody4(Challenge1Page.java:43)
 at org.thetestingmap.testingchallenges.pages.Challenge1Page$AjcClosure5.run(Challenge1Page.java:1)
 at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
@@ -163,18 +201,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettingAdminRootsTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="2915" started-at="2020-06-13T23:32:21 MSK" finished-at="2020-06-13T23:32:23 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1272" started-at="2020-06-14T18:36:20 MSK" finished-at="2020-06-14T18:36:22 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=gettingAdminRootsTest status=FAILURE method=NegativeFirstNameTest.gettingAdminRootsTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=gettingAdminRootsTest status=FAILURE method=NegativeFirstNameTest.gettingAdminRootsTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5380" started-at="2020-06-13T23:32:31 MSK" finished-at="2020-06-13T23:32:36 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3463" started-at="2020-06-14T18:36:28 MSK" finished-at="2020-06-14T18:36:31 MSK">
           <params>
             <param index="0">
               <value>
@@ -183,19 +221,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1362" started-at="2020-06-13T23:32:36 MSK" data-provider="csvReader" finished-at="2020-06-13T23:32:37 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1037" started-at="2020-06-14T18:36:31 MSK" data-provider="csvReader" finished-at="2020-06-14T18:36:32 MSK">
           <params>
             <param index="0">
               <value>
@@ -206,18 +244,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="44" started-at="2020-06-13T23:32:37 MSK" finished-at="2020-06-13T23:32:38 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1049" started-at="2020-06-14T18:36:32 MSK" finished-at="2020-06-14T18:36:33 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5204" started-at="2020-06-13T23:32:38 MSK" finished-at="2020-06-13T23:32:43 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3506" started-at="2020-06-14T18:36:33 MSK" finished-at="2020-06-14T18:36:37 MSK">
           <params>
             <param index="0">
               <value>
@@ -226,19 +264,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1289" started-at="2020-06-13T23:32:43 MSK" data-provider="csvReader" finished-at="2020-06-13T23:32:44 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1114" started-at="2020-06-14T18:36:37 MSK" data-provider="csvReader" finished-at="2020-06-14T18:36:38 MSK">
           <params>
             <param index="0">
               <value>
@@ -249,18 +287,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="44" started-at="2020-06-13T23:32:44 MSK" finished-at="2020-06-13T23:32:44 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1157" started-at="2020-06-14T18:36:38 MSK" finished-at="2020-06-14T18:36:39 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5273" started-at="2020-06-13T23:32:44 MSK" finished-at="2020-06-13T23:32:49 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3458" started-at="2020-06-14T18:36:39 MSK" finished-at="2020-06-14T18:36:43 MSK">
           <params>
             <param index="0">
               <value>
@@ -269,19 +307,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1148" started-at="2020-06-13T23:32:49 MSK" data-provider="csvReader" finished-at="2020-06-13T23:32:50 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1157" started-at="2020-06-14T18:36:43 MSK" data-provider="csvReader" finished-at="2020-06-14T18:36:44 MSK">
           <params>
             <param index="0">
               <value>
@@ -292,18 +330,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="44" started-at="2020-06-13T23:32:51 MSK" finished-at="2020-06-13T23:32:51 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1280" started-at="2020-06-14T18:36:44 MSK" finished-at="2020-06-14T18:36:45 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5364" started-at="2020-06-13T23:32:51 MSK" finished-at="2020-06-13T23:32:56 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3504" started-at="2020-06-14T18:36:45 MSK" finished-at="2020-06-14T18:36:48 MSK">
           <params>
             <param index="0">
               <value>
@@ -312,19 +350,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1101" started-at="2020-06-13T23:32:56 MSK" data-provider="csvReader" finished-at="2020-06-13T23:32:57 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1066" started-at="2020-06-14T18:36:48 MSK" data-provider="csvReader" finished-at="2020-06-14T18:36:50 MSK">
           <params>
             <param index="0">
               <value>
@@ -335,18 +373,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="32" started-at="2020-06-13T23:32:57 MSK" finished-at="2020-06-13T23:32:57 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1269" started-at="2020-06-14T18:36:50 MSK" finished-at="2020-06-14T18:36:51 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5246" started-at="2020-06-13T23:32:57 MSK" finished-at="2020-06-13T23:33:02 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3459" started-at="2020-06-14T18:36:51 MSK" finished-at="2020-06-14T18:36:54 MSK">
           <params>
             <param index="0">
               <value>
@@ -355,19 +393,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1165" started-at="2020-06-13T23:33:02 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:03 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1066" started-at="2020-06-14T18:36:54 MSK" data-provider="csvReader" finished-at="2020-06-14T18:36:55 MSK">
           <params>
             <param index="0">
               <value>
@@ -378,18 +416,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="43" started-at="2020-06-13T23:33:03 MSK" finished-at="2020-06-13T23:33:04 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1496" started-at="2020-06-14T18:36:55 MSK" finished-at="2020-06-14T18:36:57 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5256" started-at="2020-06-13T23:33:04 MSK" finished-at="2020-06-13T23:33:09 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="4453" started-at="2020-06-14T18:36:57 MSK" finished-at="2020-06-14T18:37:01 MSK">
           <params>
             <param index="0">
               <value>
@@ -398,19 +436,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1065" started-at="2020-06-13T23:33:09 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:10 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1368" started-at="2020-06-14T18:37:01 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:03 MSK">
           <params>
             <param index="0">
               <value>
@@ -421,18 +459,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="45" started-at="2020-06-13T23:33:10 MSK" finished-at="2020-06-13T23:33:10 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1247" started-at="2020-06-14T18:37:03 MSK" finished-at="2020-06-14T18:37:04 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5397" started-at="2020-06-13T23:33:10 MSK" finished-at="2020-06-13T23:33:15 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="4523" started-at="2020-06-14T18:37:04 MSK" finished-at="2020-06-14T18:37:08 MSK">
           <params>
             <param index="0">
               <value>
@@ -441,19 +479,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1260" started-at="2020-06-13T23:33:15 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:17 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1849" started-at="2020-06-14T18:37:08 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:10 MSK">
           <params>
             <param index="0">
               <value>
@@ -464,18 +502,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="55" started-at="2020-06-13T23:33:17 MSK" finished-at="2020-06-13T23:33:17 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1836" started-at="2020-06-14T18:37:10 MSK" finished-at="2020-06-14T18:37:12 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5330" started-at="2020-06-13T23:33:17 MSK" finished-at="2020-06-13T23:33:22 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="4191" started-at="2020-06-14T18:37:12 MSK" finished-at="2020-06-14T18:37:16 MSK">
           <params>
             <param index="0">
               <value>
@@ -484,19 +522,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1390" started-at="2020-06-13T23:33:22 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:23 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1301" started-at="2020-06-14T18:37:16 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:18 MSK">
           <params>
             <param index="0">
               <value>
@@ -507,18 +545,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="58" started-at="2020-06-13T23:33:23 MSK" finished-at="2020-06-13T23:33:23 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1283" started-at="2020-06-14T18:37:18 MSK" finished-at="2020-06-14T18:37:19 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5351" started-at="2020-06-13T23:33:23 MSK" finished-at="2020-06-13T23:33:29 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3453" started-at="2020-06-14T18:37:19 MSK" finished-at="2020-06-14T18:37:22 MSK">
           <params>
             <param index="0">
               <value>
@@ -527,19 +565,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1205" started-at="2020-06-13T23:33:29 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:30 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1191" started-at="2020-06-14T18:37:22 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:24 MSK">
           <params>
             <param index="0">
               <value>
@@ -550,18 +588,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="88" started-at="2020-06-13T23:33:30 MSK" finished-at="2020-06-13T23:33:30 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1125" started-at="2020-06-14T18:37:24 MSK" finished-at="2020-06-14T18:37:25 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5254" started-at="2020-06-13T23:33:30 MSK" finished-at="2020-06-13T23:33:35 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3464" started-at="2020-06-14T18:37:25 MSK" finished-at="2020-06-14T18:37:28 MSK">
           <params>
             <param index="0">
               <value>
@@ -570,19 +608,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1059" started-at="2020-06-13T23:33:35 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:36 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1015" started-at="2020-06-14T18:37:28 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:29 MSK">
           <params>
             <param index="0">
               <value>
@@ -593,18 +631,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="59" started-at="2020-06-13T23:33:36 MSK" finished-at="2020-06-13T23:33:36 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1395" started-at="2020-06-14T18:37:29 MSK" finished-at="2020-06-14T18:37:31 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5243" started-at="2020-06-13T23:33:36 MSK" finished-at="2020-06-13T23:33:42 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3982" started-at="2020-06-14T18:37:31 MSK" finished-at="2020-06-14T18:37:35 MSK">
           <params>
             <param index="0">
               <value>
@@ -613,19 +651,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1169" started-at="2020-06-13T23:33:42 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:43 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1014" started-at="2020-06-14T18:37:35 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:36 MSK">
           <params>
             <param index="0">
               <value>
@@ -636,18 +674,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="48" started-at="2020-06-13T23:33:43 MSK" finished-at="2020-06-13T23:33:43 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1160" started-at="2020-06-14T18:37:36 MSK" finished-at="2020-06-14T18:37:37 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5269" started-at="2020-06-13T23:33:43 MSK" finished-at="2020-06-13T23:33:48 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3969" started-at="2020-06-14T18:37:37 MSK" finished-at="2020-06-14T18:37:41 MSK">
           <params>
             <param index="0">
               <value>
@@ -656,19 +694,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1112" started-at="2020-06-13T23:33:48 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:49 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1029" started-at="2020-06-14T18:37:41 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:42 MSK">
           <params>
             <param index="0">
               <value>
@@ -679,18 +717,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="71" started-at="2020-06-13T23:33:49 MSK" finished-at="2020-06-13T23:33:49 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1098" started-at="2020-06-14T18:37:42 MSK" finished-at="2020-06-14T18:37:43 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5277" started-at="2020-06-13T23:33:49 MSK" finished-at="2020-06-13T23:33:55 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="4483" started-at="2020-06-14T18:37:43 MSK" finished-at="2020-06-14T18:37:47 MSK">
           <params>
             <param index="0">
               <value>
@@ -699,19 +737,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1161" started-at="2020-06-13T23:33:55 MSK" data-provider="csvReader" finished-at="2020-06-13T23:33:56 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1176" started-at="2020-06-14T18:37:47 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:49 MSK">
           <params>
             <param index="0">
               <value>
@@ -722,18 +760,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="75" started-at="2020-06-13T23:33:56 MSK" finished-at="2020-06-13T23:33:56 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="956" started-at="2020-06-14T18:37:49 MSK" finished-at="2020-06-14T18:37:49 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5307" started-at="2020-06-13T23:33:56 MSK" finished-at="2020-06-13T23:34:01 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="4009" started-at="2020-06-14T18:37:49 MSK" finished-at="2020-06-14T18:37:53 MSK">
           <params>
             <param index="0">
               <value>
@@ -742,19 +780,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1121" started-at="2020-06-13T23:34:01 MSK" data-provider="csvReader" finished-at="2020-06-13T23:34:02 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="987" started-at="2020-06-14T18:37:53 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:54 MSK">
           <params>
             <param index="0">
               <value>
@@ -765,18 +803,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="74" started-at="2020-06-13T23:34:02 MSK" finished-at="2020-06-13T23:34:02 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="983" started-at="2020-06-14T18:37:54 MSK" finished-at="2020-06-14T18:37:55 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5208" started-at="2020-06-13T23:34:02 MSK" finished-at="2020-06-13T23:34:08 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="4007" started-at="2020-06-14T18:37:55 MSK" finished-at="2020-06-14T18:37:59 MSK">
           <params>
             <param index="0">
               <value>
@@ -785,19 +823,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1143" started-at="2020-06-13T23:34:08 MSK" data-provider="csvReader" finished-at="2020-06-13T23:34:09 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1046" started-at="2020-06-14T18:37:59 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:01 MSK">
           <params>
             <param index="0">
               <value>
@@ -808,18 +846,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="98" started-at="2020-06-13T23:34:09 MSK" finished-at="2020-06-13T23:34:09 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1008" started-at="2020-06-14T18:38:01 MSK" finished-at="2020-06-14T18:38:02 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5313" started-at="2020-06-13T23:34:09 MSK" finished-at="2020-06-13T23:34:14 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3977" started-at="2020-06-14T18:38:02 MSK" finished-at="2020-06-14T18:38:05 MSK">
           <params>
             <param index="0">
               <value>
@@ -828,19 +866,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1076" started-at="2020-06-13T23:34:14 MSK" data-provider="csvReader" finished-at="2020-06-13T23:34:15 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1032" started-at="2020-06-14T18:38:05 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:07 MSK">
           <params>
             <param index="0">
               <value>
@@ -851,18 +889,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="71" started-at="2020-06-13T23:34:15 MSK" finished-at="2020-06-13T23:34:15 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1085" started-at="2020-06-14T18:38:07 MSK" finished-at="2020-06-14T18:38:08 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5238" started-at="2020-06-13T23:34:15 MSK" finished-at="2020-06-13T23:34:21 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3979" started-at="2020-06-14T18:38:08 MSK" finished-at="2020-06-14T18:38:12 MSK">
           <params>
             <param index="0">
               <value>
@@ -871,19 +909,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1127" started-at="2020-06-13T23:34:21 MSK" data-provider="csvReader" finished-at="2020-06-13T23:34:22 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1072" started-at="2020-06-14T18:38:12 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:13 MSK">
           <params>
             <param index="0">
               <value>
@@ -894,18 +932,18 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="75" started-at="2020-06-13T23:34:22 MSK" finished-at="2020-06-13T23:34:22 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1119" started-at="2020-06-14T18:38:13 MSK" finished-at="2020-06-14T18:38:14 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5234" started-at="2020-06-13T23:34:22 MSK" finished-at="2020-06-13T23:34:27 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3951" started-at="2020-06-14T18:38:14 MSK" finished-at="2020-06-14T18:38:18 MSK">
           <params>
             <param index="0">
               <value>
@@ -914,19 +952,19 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1196" started-at="2020-06-13T23:34:27 MSK" data-provider="csvReader" finished-at="2020-06-13T23:34:28 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1126" started-at="2020-06-14T18:38:18 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:19 MSK">
           <params>
             <param index="0">
               <value>
@@ -937,18 +975,270 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="56" started-at="2020-06-13T23:34:28 MSK" finished-at="2020-06-13T23:34:28 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="977" started-at="2020-06-14T18:38:19 MSK" finished-at="2020-06-14T18:38:20 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="initDriver" is-config="true" duration-ms="5219" started-at="2020-06-13T23:34:28 MSK" finished-at="2020-06-13T23:34:33 MSK">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="initDriver" is-config="true" duration-ms="3478" started-at="2020-06-14T18:38:20 MSK" finished-at="2020-06-14T18:38:23 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f162cc0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="negativeLogInTest" duration-ms="1329" started-at="2020-06-14T18:38:23 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:25 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=в‚¬}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb]" name="closeDriver" is-config="true" duration-ms="1025" started-at="2020-06-14T18:38:25 MSK" finished-at="2020-06-14T18:38:26 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@94f6bfb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest -->
+    </test> <!-- Login-firefox -->
+    <test name="Login-chrome" duration-ms="177033" started-at="2020-06-14T18:35:52 MSK" finished-at="2020-06-14T18:38:49 MSK">
+      <class name="org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@eb6449b]" name="initDriver" is-config="true" duration-ms="5862" started-at="2020-06-14T18:36:37 MSK" finished-at="2020-06-14T18:36:43 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest.notNumericLoginTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="notNumericLoginTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@eb6449b]" name="notNumericLoginTest" duration-ms="1201" started-at="2020-06-14T18:36:43 MSK" finished-at="2020-06-14T18:36:44 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notNumericLoginTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@eb6449b]" name="closeDriver" is-config="true" duration-ms="38" started-at="2020-06-14T18:36:44 MSK" finished-at="2020-06-14T18:36:44 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=notNumericLoginTest status=SUCCESS method=TypeNotNumericValueTest.notNumericLoginTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest@eb6449b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.thetestingmap.testingchallenges.challenge_2.TypeNotNumericValueTest -->
+      <class name="org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@180e6ac4]" name="initDriver" is-config="true" duration-ms="6965" started-at="2020-06-14T18:35:54 MSK" finished-at="2020-06-14T18:36:01 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest.checkingFiveIdNumbersTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="checkingFiveIdNumbersTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@180e6ac4]" name="checkingFiveIdNumbersTest" duration-ms="5147" started-at="2020-06-14T18:36:01 MSK" finished-at="2020-06-14T18:36:06 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingFiveIdNumbersTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@180e6ac4]" name="closeDriver" is-config="true" duration-ms="42" started-at="2020-06-14T18:36:06 MSK" finished-at="2020-06-14T18:36:06 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkingFiveIdNumbersTest status=SUCCESS method=GenerateTestingDataTest.checkingFiveIdNumbersTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest@180e6ac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.thetestingmap.testingchallenges.challenge_4.GenerateTestingDataTest -->
+      <class name="org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@7c351808]" name="initDriver" is-config="true" duration-ms="5207" started-at="2020-06-14T18:36:06 MSK" finished-at="2020-06-14T18:36:11 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest.checkingHiddenPageTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="checkingHiddenPageTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@7c351808]" name="checkingHiddenPageTest" duration-ms="506" started-at="2020-06-14T18:36:11 MSK" finished-at="2020-06-14T18:36:12 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingHiddenPageTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@7c351808]" name="closeDriver" is-config="true" duration-ms="59" started-at="2020-06-14T18:36:12 MSK" finished-at="2020-06-14T18:36:12 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkingHiddenPageTest status=SUCCESS method=OpenHiddenChallengeTest.checkingHiddenPageTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest@7c351808] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.thetestingmap.testingchallenges.challenge_3.OpenHiddenChallengeTest -->
+      <class name="org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest">
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5301" started-at="2020-06-14T18:36:12 MSK" finished-at="2020-06-14T18:36:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.gettingAdminRootsTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="FAIL" signature="gettingAdminRootsTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="gettingAdminRootsTest" duration-ms="5793" started-at="2020-06-14T18:36:17 MSK" finished-at="2020-06-14T18:36:23 MSK">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='user_right_as_admin'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8H0MF42', ip: '192.168.100.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 69b3b8036a4281863861cd02906...}
+Session ID: 69b3b8036a4281863861cd029061631a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='user_right_as_admin'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8H0MF42', ip: '192.168.100.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 69b3b8036a4281863861cd02906...}
+Session ID: 69b3b8036a4281863861cd029061631a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at org.thetestingmap.testingchallenges.pages.BasePage.find_aroundBody2(BasePage.java:45)
+at org.thetestingmap.testingchallenges.pages.BasePage$AjcClosure3.run(BasePage.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+at org.thetestingmap.testingchallenges.pages.BasePage.find(BasePage.java:43)
+at org.thetestingmap.testingchallenges.pages.Challenge1Page.changeAttributeValueByClassName_aroundBody4(Challenge1Page.java:43)
+at org.thetestingmap.testingchallenges.pages.Challenge1Page$AjcClosure5.run(Challenge1Page.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+at org.thetestingmap.testingchallenges.pages.Challenge1Page.changeAttributeValueByClassName(Challenge1Page.java:39)
+at org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.gettingAdminRootsTest(NegativeFirstNameTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingAdminRootsTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="4678" started-at="2020-06-14T18:36:32 MSK" finished-at="2020-06-14T18:36:37 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gettingAdminRootsTest status=FAILURE method=NegativeFirstNameTest.gettingAdminRootsTest()[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5268" started-at="2020-06-14T18:36:44 MSK" finished-at="2020-06-14T18:36:49 MSK">
           <params>
             <param index="0">
               <value>
@@ -962,14 +1252,788 @@ at java.lang.Thread.run(Thread.java:748)
             </param>
             <param index="2">
               <value>
-                <![CDATA[org.testng.TestRunner@1fc0053e]]>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="negativeLogInTest" duration-ms="1069" started-at="2020-06-13T23:34:33 MSK" data-provider="csvReader" finished-at="2020-06-13T23:34:35 MSK">
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1108" started-at="2020-06-14T18:36:49 MSK" data-provider="csvReader" finished-at="2020-06-14T18:36:50 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Your username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="38" started-at="2020-06-14T18:36:50 MSK" finished-at="2020-06-14T18:36:50 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5207" started-at="2020-06-14T18:36:50 MSK" finished-at="2020-06-14T18:36:55 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1248" started-at="2020-06-14T18:36:55 MSK" data-provider="csvReader" finished-at="2020-06-14T18:36:57 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=Р СѓСЃСЃРєРёР№}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="45" started-at="2020-06-14T18:36:57 MSK" finished-at="2020-06-14T18:36:57 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5308" started-at="2020-06-14T18:36:57 MSK" finished-at="2020-06-14T18:37:02 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1284" started-at="2020-06-14T18:37:02 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:03 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=a}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="41" started-at="2020-06-14T18:37:03 MSK" finished-at="2020-06-14T18:37:03 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5546" started-at="2020-06-14T18:37:03 MSK" finished-at="2020-06-14T18:37:09 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1665" started-at="2020-06-14T18:37:09 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:11 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=''}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="79" started-at="2020-06-14T18:37:11 MSK" finished-at="2020-06-14T18:37:11 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5665" started-at="2020-06-14T18:37:11 MSK" finished-at="2020-06-14T18:37:16 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1168" started-at="2020-06-14T18:37:16 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=' '}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="40" started-at="2020-06-14T18:37:17 MSK" finished-at="2020-06-14T18:37:18 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5289" started-at="2020-06-14T18:37:18 MSK" finished-at="2020-06-14T18:37:23 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1097" started-at="2020-06-14T18:37:23 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:24 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName= user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="79" started-at="2020-06-14T18:37:24 MSK" finished-at="2020-06-14T18:37:24 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5264" started-at="2020-06-14T18:37:24 MSK" finished-at="2020-06-14T18:37:29 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1073" started-at="2020-06-14T18:37:29 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:30 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="98" started-at="2020-06-14T18:37:30 MSK" finished-at="2020-06-14T18:37:30 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5303" started-at="2020-06-14T18:37:30 MSK" finished-at="2020-06-14T18:37:36 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1241" started-at="2020-06-14T18:37:36 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:37 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=longlongNamelonglongNamelonglongNamelonglongNamelonglongName}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="40" started-at="2020-06-14T18:37:37 MSK" finished-at="2020-06-14T18:37:37 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="6252" started-at="2020-06-14T18:37:37 MSK" finished-at="2020-06-14T18:37:43 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1269" started-at="2020-06-14T18:37:43 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:45 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=qwertyuiopqwertyuiopqwertyuiop}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="40" started-at="2020-06-14T18:37:45 MSK" finished-at="2020-06-14T18:37:45 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5320" started-at="2020-06-14T18:37:45 MSK" finished-at="2020-06-14T18:37:50 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1040" started-at="2020-06-14T18:37:50 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:51 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=;375^@@}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="34" started-at="2020-06-14T18:37:51 MSK" finished-at="2020-06-14T18:37:51 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5348" started-at="2020-06-14T18:37:51 MSK" finished-at="2020-06-14T18:37:56 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1105" started-at="2020-06-14T18:37:56 MSK" data-provider="csvReader" finished-at="2020-06-14T18:37:57 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=sdgsdgsa yet}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="101" started-at="2020-06-14T18:37:57 MSK" finished-at="2020-06-14T18:37:58 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5251" started-at="2020-06-14T18:37:58 MSK" finished-at="2020-06-14T18:38:03 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1145" started-at="2020-06-14T18:38:03 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=<div>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="102" started-at="2020-06-14T18:38:04 MSK" finished-at="2020-06-14T18:38:04 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5247" started-at="2020-06-14T18:38:04 MSK" finished-at="2020-06-14T18:38:09 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1196" started-at="2020-06-14T18:38:09 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:11 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=<script>alert</script>}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="38" started-at="2020-06-14T18:38:11 MSK" finished-at="2020-06-14T18:38:11 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5216" started-at="2020-06-14T18:38:11 MSK" finished-at="2020-06-14T18:38:16 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1167" started-at="2020-06-14T18:38:16 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName='sql'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="72" started-at="2020-06-14T18:38:17 MSK" finished-at="2020-06-14T18:38:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5219" started-at="2020-06-14T18:38:17 MSK" finished-at="2020-06-14T18:38:22 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1242" started-at="2020-06-14T18:38:22 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:23 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=dfjwGGe82H43g3uRiy53h}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="50" started-at="2020-06-14T18:38:23 MSK" finished-at="2020-06-14T18:38:24 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5260" started-at="2020-06-14T18:38:24 MSK" finished-at="2020-06-14T18:38:29 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1008" started-at="2020-06-14T18:38:29 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:30 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=465454}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="41" started-at="2020-06-14T18:38:30 MSK" finished-at="2020-06-14T18:38:30 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5279" started-at="2020-06-14T18:38:30 MSK" finished-at="2020-06-14T18:38:35 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1046" started-at="2020-06-14T18:38:35 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:36 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=detailsoverviewnow.css}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="61" started-at="2020-06-14T18:38:36 MSK" finished-at="2020-06-14T18:38:36 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5204" started-at="2020-06-14T18:38:36 MSK" finished-at="2020-06-14T18:38:41 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="1134" started-at="2020-06-14T18:38:41 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:43 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=oi32jnxd42390slk345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogInTest -->
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="37" started-at="2020-06-14T18:38:43 MSK" finished-at="2020-06-14T18:38:43 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="initDriver(java.lang.reflect.Method, java.lang.String, org.testng.ITestContext)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="initDriver" is-config="true" duration-ms="5194" started-at="2020-06-14T18:38:43 MSK" finished-at="2020-06-14T18:38:48 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.negativeLogInTest(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a60bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="negativeLogInTest" duration-ms="990" started-at="2020-06-14T18:38:48 MSK" data-provider="csvReader" finished-at="2020-06-14T18:38:49 MSK">
           <params>
             <param index="0">
               <value>
@@ -980,11 +2044,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeLogInTest -->
-        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e]" name="closeDriver" is-config="true" duration-ms="52" started-at="2020-06-13T23:34:35 MSK" finished-at="2020-06-13T23:34:35 MSK">
+        <test-method status="PASS" signature="closeDriver(org.testng.ITestResult)[pri:0, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c]" name="closeDriver" is-config="true" duration-ms="45" started-at="2020-06-14T18:38:49 MSK" finished-at="2020-06-14T18:38:49 MSK">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@7651218e] output={null}]]]>
+                <![CDATA[[TestResult name=negativeLogInTest status=SUCCESS method=NegativeFirstNameTest.negativeLogInTest(java.util.Map)[pri:1, instance:org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest@76ba13c] output={null}]]]>
               </value>
             </param>
           </params>

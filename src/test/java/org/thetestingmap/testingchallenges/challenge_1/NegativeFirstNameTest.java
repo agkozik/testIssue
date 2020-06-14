@@ -39,7 +39,7 @@ public class NegativeFirstNameTest extends TestEngine {
                 .changeAttributeValueByClassName()
                 .enterAdminFirstName()
                 .clickSubmitButton()
-                .getfirstResultOfLoginMessages();
+                .getFirstResultOfLoginMessages();
         Assert.assertEquals(resultMessage, "You made the user admin");
     }
 }

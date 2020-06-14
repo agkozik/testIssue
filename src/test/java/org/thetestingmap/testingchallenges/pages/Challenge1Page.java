@@ -76,7 +76,7 @@ public class Challenge1Page extends BasePage {
     }
 
     @Step
-    public String getfirstResultOfLoginMessages() {
+    public String getFirstResultOfLoginMessages() {
         log.info("Message = "+ find(firstResultOfLogin).getText());
         return find(firstResultOfLogin).getText();
     }

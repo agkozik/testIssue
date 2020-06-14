@@ -1,24 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 44, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 162.437 s <<< FAILURE! - in TestSuite
-gettingAdminRootsTest(org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest)  Time elapsed: 5.145 s  <<< FAILURE!
+Tests run: 46, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 179.253 s <<< FAILURE! - in TestSuite
+gettingAdminRootsTest(org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest)  Time elapsed: 3.442 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='user_right_as_admin'] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8H0MF42', ip: '192.168.100.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 26144, moz:profile: C:\Users\Aleksandr\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 73edd1f9-b1bb-4de5-959e-e17...}
-Session ID: 73edd1f9-b1bb-4de5-959e-e17ad0cec0c7
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 37368, moz:profile: C:\Users\Aleksandr\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 9bdf2522-ada1-43f4-bd14-83d...}
+Session ID: 9bdf2522-ada1-43f4-bd14-83d86e13e4a1
 	at org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.gettingAdminRootsTest(NegativeFirstNameTest.java:39)
 
-gettingAdminRootsTest(org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest)  Time elapsed: 8.924 s  <<< FAILURE!
+gettingAdminRootsTest(org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest)  Time elapsed: 1.734 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: 
 Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name='user_right_as_admin'] (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8H0MF42', ip: '192.168.100.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1d1363a1a624d89a6b0b3cd7ec8...}
-Session ID: 1d1363a1a624d89a6b0b3cd7ec8a9b46
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51851}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 69b3b8036a4281863861cd02906...}
+Session ID: 69b3b8036a4281863861cd029061631a
 	at org.thetestingmap.testingchallenges.challenge_1.NegativeFirstNameTest.gettingAdminRootsTest(NegativeFirstNameTest.java:39)
 
